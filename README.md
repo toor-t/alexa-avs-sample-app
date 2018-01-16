@@ -1,3 +1,7 @@
+これは https://github.com/alexa/alexa-avs-sample-app からフォークしたものです。
+
+以下オリジナルのREADME
+
 ![](../../wiki/assets/alexa-logo-3.png)
 
 ## About the project
