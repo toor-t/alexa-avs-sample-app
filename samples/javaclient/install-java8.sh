@@ -16,8 +16,9 @@ if [ "$VERSION" == "jessie" ]; then
 elif [ "$VERSION" == "wheezy" ]; then
     UBUNTU_VERSION="precise"
 else
-    echo "Not running Raspbian Wheezy or Jessie. Exiting..."
-    exit 1;
+#    echo "Not running Raspbian Wheezy or Jessie. Exiting..."
+#    exit 1;
+    UBUNTU_VERSION="trusty"
 fi
 
 # Remove any existing Java
